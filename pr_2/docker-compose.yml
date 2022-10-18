@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  drawer:
+    build: ./docker_file
+    volumes:
+    - "./drawer/:/var/www/html"
+    ports:
+    - 8080:80
+  sorting:
+    build: ./docker_file
+    volumes:
+    - "./sorting/:/var/www/html"
+    ports:
+    - 8081:80
+  information:
+    build: ./docker_file
+    volumes:
+    - "./information/:/var/www/html"
+    ports:
+    - 8082:80
+volumes:
+  db_volume:

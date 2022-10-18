@@ -1,0 +1,12 @@
+body {
+    background-color: #1d1d1d;
+    color: azure;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ input {
+    border: none;
+    background-color: transparent;
+    color: rgb(88, 194, 17);
+    font-family: 'Courier New', Courier, monospace;
+ }
