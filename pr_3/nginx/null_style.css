@@ -1,0 +1,20 @@
+/* минимальное обнуление */
+
+html, body {
+    background-color: var(--bg-color);
+    color: var(--default-color);
+    font-size: var(--default-size);
+}
+
+a, button {
+    cursor: pointer;
+}
+
+a {
+    color: var(--default-color);
+    text-decoration: none;
+}
+
+input {
+    border: none;
+}
