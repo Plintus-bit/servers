@@ -1,4 +1,0 @@
-AuthName "Enter login"
-AuthType Basic
-AuthUserFile D:/docker-tasks/pr-3/apache/.htpasswd
-require admin
